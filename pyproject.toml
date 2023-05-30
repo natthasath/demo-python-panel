@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "demo-python-panel"
+version = "0.1.0"
+description = ""
+authors = ["natthasath <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_panel"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+panel = "^1.0.3"
+ptvsd = "^4.3.2"
+jupyter-bokeh = "^3.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
